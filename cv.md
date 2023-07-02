@@ -8,3 +8,20 @@
 * **Email:** subject12-17@mail.ru
 * **GitHub:** [PavelKoguch](https://github.com/PavelKoguch)
 * **Discord:** paulus(@PavelKoguch)
+## About Me ##
+---
+ I'm communicable and can work on team. I may be more purposeful ( if i need it).I have some starting knowledge on css, html and js. Also I have a large skills in engeneering.
+## Skills ##
+---
+* HTML
+* CSS
+* JavaScript ( Basic)
+* Git
+## Code Example ##
+---
+```
+function multiply(a, b){
+ let result= a * b
+ return result
+}
+multiply(2,5)
