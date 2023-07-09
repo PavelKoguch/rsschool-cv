@@ -123,3 +123,43 @@ img {
   grid-column: 1 / -1;
   margin-bottom: 2rem;
 }
+.left-side, .right-side{
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+  }
+  
+  /* profile */
+  .profile_container {
+    display: flex;
+    gap: 2rem;
+  }
+  .Img {
+    max-width: 250px;
+  }
+  .first_Name {
+    color: white;
+    font-weight: 200;
+    font-size: clamp( 2rem, 8vw,4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+  }
+  .last_Name {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+    text-transform: uppercase;
+    display: block;
+  }
+  .profile_title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+  }
+  @media only screen and (max-width: 768px){
+    .profile_container{
+      flex-direction: column;
+    }
+  }
